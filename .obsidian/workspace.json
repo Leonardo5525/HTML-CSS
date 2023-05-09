@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "d964cece083c1adb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "daed9bfecc2ddc24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTML/HTML Cheatsheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "c853bf6dc8284cf9",
         "type": "tabs",
         "children": [
@@ -31,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Cheat sheet.md",
+                "file": "HTML/HTML Cheatsheet.md",
                 "mode": "preview",
                 "source": false
               }
@@ -87,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cd2f099180dc9a9b",
@@ -103,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HTML/HTML Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HTML/HTML Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HTML/HTML Cheatsheet.md"
+              }
             }
           },
           {
@@ -168,8 +155,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "390bc716db5ea728",
+  "active": "7fab49b95b6c7871",
   "lastOpenFiles": [
+    "Free code camp/basics html.png",
+    "Free code camp/Captura de tela de 2023-05-08 20-26-55.png",
+    "Free code camp/index.html",
+    "Free code camp",
     "HTML",
     "HTML/HTML Cheatsheet.md",
     "Untitled 2.md",
