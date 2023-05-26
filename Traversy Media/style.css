@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    height: 400px;
+    display: flex;
+    background-color: #f4f4f4;
+     /*works with only the main access, beacause we are working with a flex row horizontal is the main access */
+    justify-content: space-between ;
+    /* justify-content: star/ end/ center/ space-around/ space-betwen/ */
+    align-items: center;
+    /* align-items: star/ end/ center/ space-around/ space-betwen/ */
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: #254de4;
+    color: #fff;
+    margin: 10px;
+}
+
+.flex-container .item:nth-of-type(1){
+    align-self: start;
+}
+
+.flex-container .item:nth-of-type(2){
+    align-self: ;
+}
+
+.flex-container .item:nth-of-type(3){
+    align-self: flex-end;
+}
+
+.flex-container-1{
+    height: 500PX;
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f4f4;
+    /* This is always on the main access (display flex) , so when column will not change beacause the flex on default is row */
+    justify-content: space-around ;
+}
+
+.flex-container-1 .item:nth-of-type(4){
+    align-self: start;
+}
+
+.flex-container-1 .item:nth-of-type(5){
+    align-self: center;
+}
+
+.flex-container-1 .item:nth-of-type(6){
+    align-self: flex-end;
+}
