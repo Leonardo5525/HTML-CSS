@@ -7,6 +7,15 @@
   border-radius: 5px; 
   cursor: pointer;
   margin-right: 8px;
+  transition: opacity 0.15s;
+}
+
+.sub-button:hover{
+  opacity: 0.8;
+}
+
+.sub-button:active{
+  opacity: 0.5;
 }
 
 .join-button{
@@ -19,6 +28,17 @@
   border-style: solid;
   border-width: 1px;
   margin-right: 8px;
+  transition: background-color 1s;
+  color: 1s;
+}
+
+.join-button:hover{
+  background-color: rgb(10, 130, 185);
+  color: white;
+}
+
+.join-button:active{
+  opacity: 0.7;
 }
 
 .Twitter-button{
@@ -33,4 +53,9 @@
   border: none;
   font-weight: bold;
   font-size: 15px;
+  transition: box-shadow 0.15s;
+}
+
+.Twitter-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }

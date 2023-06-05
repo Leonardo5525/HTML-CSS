@@ -1,0 +1,28 @@
+.name{
+  font-size:large;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.price{
+  color: green;
+  font-weight: 700;
+}
+
+.add-btn{
+  height: 36px;
+  width: 105px;
+  border-radius: 18px;
+  border: none;
+  background-color: rgb(255, 216, 20);
+
+}
+
+.buy-btn{
+  height: 36px;
+  width: 105px;
+  border-radius: 18px;
+  border: none;
+  background-color: rgb(255, 164, 28);
+  
+}
